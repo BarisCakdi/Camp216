@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <title>İletişim | Camp216</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="urunler.html">Ürünler</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+<form>
+    <p><strong>İletişim formu</strong></p>
+  
+    <p><select>
+      <option selected="selected" value="1">Cinsiyet</option>
+      <option value="2">Erkek</option>
+      <option value="3">Kadın</option>
+      <option value="4">Belirtmek istemiyorum</option>
+      
+    </select></p>
+  
+    <p>
+    <label>İsim</label>
+    <input type="text" name="first_name">
+    </p>
+  
+    <p>
+    <label>Soyisim</label>
+    <input type="text" name="surname">
+    </p>
+  
+    <p>
+    <label>Email</label>
+    <input type="email" name="email" required="">
+    </p>
+  
+    <p>
+    <label> Mesaj türü:</label>
+    <label><input checked="checked" name="type" type="radio" value="sales" /> Satış</label> 
+    <label><input name="type" type="radio" value="support" /> Destek</label> 
+    </p>
+  
+    <p>
+    <label>Mesaj</label>
+    <textarea rows="6"></textarea>
+    </p>
+  
+    
+  
+    <p>
+    <label>
+    <input type="checkbox" id="checkbox" value="terms">
+    Kabul ediyorum <a href="#">terms and conditions</a>
+    </label>
+    </p>
+  
+    <button>Gönder</button>
+    <button type="reset">Sıfırla</button>
+  </form>
+<footer>
+    © 2024 Camp216 | Tüm hakları saklıdır. | Keyifle tüketiniz.
+</footer>
+</html>
